@@ -1,7 +1,8 @@
 body{
     background-color: black;
-    paddign:0;
+    padding: 0;
     margin:0;
+    
 }
 
 .header{
@@ -20,12 +21,11 @@ body{
     text-decoration: none;
 }
 #ptlink hr{
-    position:relative;
-    top:15%;
     display: block;
     height: 5px;
     background-image: url("file:///C:/Users/grigo/OneDrive/Desktop/Codecademy/The%20Bread%20Bank/resources/poza-linie.png");
     border: none;
+    margin-top: 2%;
 }
 #titlu{
     font-family: "Oswald";
@@ -33,21 +33,17 @@ body{
     color:white;
     display: inline-block;
     text-decoration: none;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    top:4%;
+    margin: 2% 0% 0 0%;
 }
+
 #titlu-tbb{
     font-family: "Oswald";
     font-size: 40px;
     color:white;
     display: inline-block;
     text-decoration: none;
-    position: absolute;
-    left: 13%;
-    transform: translateX(-13%);
-    top:5.3%;
+    margin: 2% 5% 0 12%;
+    
 }
 #titlu-tib{
     font-family: "Oswald";
@@ -55,10 +51,7 @@ body{
     color:white;
     display: inline-block;
     text-decoration: none;
-    position: absolute;
-    left: 21%;
-    transform: translateX(-21%);
-    top:5.3%;
+    margin: 2% 5% 0 0%;
 }
 #titlu-tsb{
     font-family: "Oswald";
@@ -66,10 +59,7 @@ body{
     color:white;
     display: inline-block;
     text-decoration: none;
-    position: absolute;
-    left: 29%;
-    transform: translateX(-29%);
-    top: 5.3%;
+    margin: 2% 8% 0 0%;
 }
 
 #titlu-game{
@@ -78,10 +68,7 @@ body{
     color:white;
     display: inline-block;
     text-decoration: none;
-    position: absolute;
-    right: 29%;
-    transform: translateX(29%);
-    top: 5.3%;
+    margin: 2% 4% 0 5%;
 }
 #titlu-ab{
     font-family: "Oswald";
@@ -89,10 +76,7 @@ body{
     color:white;
     display: inline-block;
     text-decoration: none;
-    position: absolute;
-    right: 19%;
-    transform: translateX(19%);
-    top: 5.3%;
+    margin: 2% 4% 0 0%;
 }
 #titlu-soc{
     font-family: "Oswald";
@@ -100,8 +84,5 @@ body{
     color:white;
     display: inline-block;
     text-decoration: none;
-    position: absolute;
-    right: 8%;
-    transform: translateX(8%);
-    top: 5.3%;
+    margin: 2% 4% 0 0%;
 }
