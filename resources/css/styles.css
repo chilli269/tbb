@@ -23,7 +23,7 @@ body{
 #ptlink hr{
     display: block;
     height: 5px;
-    background-image: url("file:///C:/Users/grigo/OneDrive/Desktop/Codecademy/The%20Bread%20Bank/resources/poza-linie.png");
+    background-image: url("../poza-linie.png");
     border: none;
     margin-top: 2%;
 }
