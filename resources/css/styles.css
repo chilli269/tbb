@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+    paddign:0;
+    margin:0;
+}
+
+.header{
+    position: fixed;
+    padding: 0;
+    margin:0;
+    top:0;
+    bottom:0;
+    width: 100%;
+}
+.header a{
+    font-family: "Oswald";
+    font-size: 45px;
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+}
+#ptlink hr{
+    position:relative;
+    top:15%;
+    display: block;
+    height: 5px;
+    background-image: url("file:///C:/Users/grigo/OneDrive/Desktop/Codecademy/The%20Bread%20Bank/resources/poza-linie.png");
+    border: none;
+}
+#titlu{
+    font-family: "Oswald";
+    font-size: 55px;
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:4%;
+}
+#titlu-tbb{
+    font-family: "Oswald";
+    font-size: 40px;
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    left: 13%;
+    transform: translateX(-13%);
+    top:5.3%;
+}
+#titlu-tib{
+    font-family: "Oswald";
+    font-size: 40px;
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    left: 21%;
+    transform: translateX(-21%);
+    top:5.3%;
+}
+#titlu-tsb{
+    font-family: "Oswald";
+    font-size: 40px;
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    left: 29%;
+    transform: translateX(-29%);
+    top: 5.3%;
+}
+
+#titlu-game{
+    font-family: "Oswald";
+    font-size: 40px;
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    right: 29%;
+    transform: translateX(29%);
+    top: 5.3%;
+}
+#titlu-ab{
+    font-family: "Oswald";
+    font-size: 40px;
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    right: 19%;
+    transform: translateX(19%);
+    top: 5.3%;
+}
+#titlu-soc{
+    font-family: "Oswald";
+    font-size: 40px;
+    color:white;
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    right: 8%;
+    transform: translateX(8%);
+    top: 5.3%;
+}
