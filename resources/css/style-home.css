@@ -134,6 +134,13 @@ body{
     left: 400vw;
     width: 100%; 
   }
+  #ROADMAP img{
+    position: relative;
+    bottom: 15vh;
+    width: 50vw;
+    height: auto;
+    left:25vw;
+  }
 
   .img-comp-container {
     position: absolute;
