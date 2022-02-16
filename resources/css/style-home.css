@@ -134,9 +134,16 @@ body{
     left: 400vw;
     width: 100%; 
   }
+  #ROADMAP p{
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
   #ROADMAP img{
-    position: relative;
-    bottom: 15vh;
+    position: absolute;
+    display: block;
+    margin-top: 35vh;
     width: 50vw;
     height: auto;
     left:25vw;
