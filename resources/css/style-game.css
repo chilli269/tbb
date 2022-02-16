@@ -1,0 +1,112 @@
+body{
+  background-color:black;
+}
+.header{
+  position: fixed;
+  padding: 0;
+  margin:0;
+  top:0;
+  bottom:0;
+  width: 100%;
+}
+.header a{
+  font-family: "Oswald";
+  color:white;
+  display: inline-block;
+  text-decoration: none;
+}
+#link hr{
+  display: block;
+  height: 5px;
+  background-image: url("https://cdn.discordapp.com/attachments/754618458305724527/943404881245515826/poza-linie.png ");
+  border: none;
+  margin-top: 2%;
+}
+#title{
+  font-family: "Oswald";
+  font-size: 3.5vw;
+  color:white;
+  display: inline-block;
+  text-decoration: none;
+  margin: 2% 0% 0 2.7%;
+}
+
+#title-tbb{
+  font-family: "Oswald";
+  font-size: 2vw;
+  color:white;
+  display: inline-block;
+  text-decoration: none;
+  margin: 2% 5% 0 12%;
+
+}
+#title-tib{
+  font-family: "Oswald";
+  font-size: 2vw;
+  color:white;
+  display: inline-block;
+  text-decoration: none;
+  margin: 2% 5% 0 0%;
+}
+#title-tsb{
+  font-family: "Oswald";
+  font-size: 2vw;
+  color:white;
+  display: inline-block;
+  text-decoration: none;
+  margin: 2% 5% 0 0%;
+}
+
+#title-game{
+  font-family: "Oswald";
+  font-size: 2vw;
+  color:white;
+  display: inline-block;
+  text-decoration: none;
+  margin: 2% 3% 0 4.3%;
+}
+#title-ab{
+  font-family: "Oswald";
+  font-size: 2vw;
+  color:white;
+  display: inline-block;
+  text-decoration: none;
+  margin: 2% 3% 0 0%;
+}
+#title-soc{
+  font-family: "Oswald";
+  font-size: 2vw;
+  color:white;
+  display: inline-block;
+  text-decoration: none;
+  margin: 2% 0% 0 0%;
+}
+.title-the-game{
+  color:white;
+  font-size:3vw;
+  font-family:"Oswald";
+  display:block;
+  margin-top:13%;
+  margin-left:12%;
+}
+.game-info{
+  color:white;
+  font-family:"Oswald";
+  display:block;
+  margin-left:12%;
+  margin-right:50%;
+  font-size:1.5vw;
+  text-align:left;
+  position:absolute;
+}
+.coming-soon{
+  color:white;
+  font-family:"Oswald";
+  
+}
+@media only screen and (max-width:1000px)
+{
+  body{
+    background-color:purple;
+  }
+}
