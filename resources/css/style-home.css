@@ -16,19 +16,13 @@ body{
     bottom:0;
     width: 100%;
     height: 9.4vh;
-    z-index: 12;
+    z-index: 15;
   }
 .header a{
     font-family: "Oswald";
     color:white;
     display: inline-block;
     text-decoration: none;
-  }
-#link hr{
-    height: 5px;
-    background-image: url("../poza-linie.png");
-    border: none;
-    margin-top: 4vh;
   }
 #title{
     font-family: "Oswald";
@@ -91,13 +85,8 @@ body{
   }
   .fundal{
     width: 100%;
-    height:100vh;
-    display: block;
-    position: absolute;
-    z-index: 1;
-    background-image: url(../sanchi.jpg);
+    height:100%;
     background-repeat: no-repeat;
-    z-index: 11;
   }
   .horizontalscrolling{
     width: 400vw;
@@ -105,7 +94,7 @@ body{
     white-space: nowrap;
     display:inline-flex;
   }
-  .TBB{
+  #TBB{
     top:5vh;
     left:100vw;
     display: block;
@@ -114,6 +103,7 @@ body{
     width: 100%;
   }
   .titledesc{
+    text-align: center;
     font-size: 7vw;
   }
   .desc{
@@ -131,17 +121,47 @@ body{
     left: 200vw;
     width: 100%; 
   }
-  .TSB{
+  #TSB{
     top:5vh;
     display: block;
     position: absolute;
     left: 300vw;
     width: 100%; 
   }
-  .ROADMAP{
+  #ROADMAP{
     top:5vh;
     display: block;
     position: absolute;
     left: 400vw;
     width: 100%; 
+  }
+  .img-comp-container {
+    position: relative;
+    height: 20vw;
+    left:60vw;
+    bottom: 10vh;
+  }
+  
+  .img-comp-img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .img-comp-img img {
+    display: block;
+    vertical-align: middle;
+  }
+  
+  .img-comp-slider {
+    position: absolute;
+    z-index: 9;
+    cursor: ew-resize;
+    /*set the appearance of the slider:*/
+    width: 10px;
+    height: 40px;
+    background-color: #ff9900;
+    opacity: 0.7;
+    border-radius: 10%;
   }
