@@ -129,9 +129,8 @@ body{
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 100%}
 }
-
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
@@ -144,24 +143,20 @@ body{
 .contact{
   z-index:1;
 }
-.email{
-  color:white;
-  font-family:"Oswald";
-  margin-top:20%;
-  margin-left:12%;
-  text-transform:uppercase;
+#button-addon1 {
+  color: #ffffff;
 }
-.contact h3{
-  position: absolute;
-  color:white;
-  font-family:"Oswald";
-  top:75vw;
-  margin-left:12%;
-  text-transform:uppercase;
+
+i {
+  color: #ffffff;
 }
-.Socials{
+
+.form-control::placeholder {
+  font-size: 0.95rem;
   color:white;
-  text-align:right;
-  position:absolute;
-  
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
 }
