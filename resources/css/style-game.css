@@ -1,5 +1,13 @@
 body{
   background-color:black;
+  margin:0px;
+  min-height:100%;
+  width:100%;
+}
+footer{
+  margin:0px;
+  min-height:100%;
+  width:100%;
 }
 .header{
   position:fixed;
@@ -23,7 +31,7 @@ body{
   height: 5px;
   background-image: url("https://cdn.discordapp.com/attachments/754618458305724527/943404881245515826/poza-linie.png ");
   border: none;
-  margin-top: 2%;
+  margin-top:2%;
 }
 #title{
   font-family: "Oswald";
@@ -114,13 +122,13 @@ body{
 }
 .typewriter h2 {
   overflow: hidden;
-  border-right: .15em solid orange;
+  border-right: .15em solid rgb(194, 89, 3);
   white-space: nowrap; 
   margin: 0 auto; 
   letter-spacing: .15em; 
   text-align:center;
   font-size:7vw;
-  margin-top:37%;
+  margin-top:45%;
   animation: 
   typing 4.5s steps(40, end),
   blink-caret .75s step-end infinite;
@@ -133,7 +141,7 @@ body{
 }
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
+  50% { border-color: rgb(194, 89, 3); }
 }
 #footer{
   width: 100%;
@@ -142,21 +150,82 @@ body{
 }
 .contact{
   z-index:1;
+  text-align:center;
+  margin-top:13%;
 }
-#button-addon1 {
-  color: #ffffff;
-}
-
-i {
-  color: #ffffff;
-}
-
-.form-control::placeholder {
-  font-size: 0.95rem;
+.ctitle{
+  text-align:center;
+  margin-left:12%;;
+  text-transform:uppercase;
   color:white;
-  font-style: italic;
+  font-size:1.5vw;
+  margin-top:10%;
+  font-family:"Oswald";
+  display:inline;
+   
 }
-
-.form-control.shadow-0:focus {
-  box-shadow: none;
+.mail{
+  font-size:1.3vw;
+  margin-left:12%;
+  color:white;
+  font-family:"Oswald";
+  text-align:left;
+  margin-top:3.5%;
+}
+.stitle{
+  text-align:center;
+  text-transform:uppercase;
+  padding-right:12%;
+  font-size:1.5vw;
+  color:white;
+  font-family:"Oswald";
+  display:inline;
+  margin-top: 40%;
+}
+#top-hypers {
+  background-color:#000000;
+  display:inline;      
+}
+#ul-top-hypers{
+  display: inline;
+}
+ul{
+  list-style-type:none;
+}
+.madd{
+  font-style:italic;
+  font-size:1.3vw;
+  margin-left:19%;
+  color:white;
+  font-family:"Oswald";
+  text-align:left;
+  display:inline-block;
+}
+#container
+{
+    text-align:center;
+    display:inline-block;
+}
+#mailadress, #socialpics
+{
+  display:inline-block;
+}
+.instagram{
+  width:30px;
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.twitter{
+  width:30px;
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+   
+}
+.discord{
+  width:30px;
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
