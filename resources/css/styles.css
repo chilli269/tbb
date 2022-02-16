@@ -11,77 +11,76 @@ body{
     top:0;
     bottom:0;
     width: 100%;
-}
+  }
 .header a{
     font-family: "Oswald";
-    font-size: 45px;
     color:white;
     display: inline-block;
     text-decoration: none;
-}
-#ptlink hr{
+  }
+#link hr{
     display: block;
     height: 5px;
     background-image: url("../poza-linie.png");
     border: none;
     margin-top: 2%;
-}
-#titlu{
+  }
+#title{
     font-family: "Oswald";
     font-size: 3.5vw;
     color:white;
     display: inline-block;
     text-decoration: none;
     margin: 2% 0% 0 0%;
-}
-
-#titlu-tbb{
+  }
+  
+#title-tbb{
     font-family: "Oswald";
     font-size: 2vw;
     color:white;
     display: inline-block;
     text-decoration: none;
     margin: 2% 5% 0 12%;
-    
-}
-#titlu-tib{
+  
+  }
+#title-tib{
     font-family: "Oswald";
     font-size: 2vw;
     color:white;
     display: inline-block;
     text-decoration: none;
     margin: 2% 5% 0 0%;
-}
-#titlu-tsb{
+  }
+#title-tsb{
     font-family: "Oswald";
     font-size: 2vw;
     color:white;
     display: inline-block;
     text-decoration: none;
-    margin: 2% 7% 0 0%;
-}
-
-#titlu-game{
+    margin: 2% 4.3% 0 0%;
+  }
+  
+#title-game{
     font-family: "Oswald";
     font-size: 2vw;
     color:white;
     display: inline-block;
     text-decoration: none;
-    margin: 2% 4% 0 5%;
-}
-#titlu-ab{
+    margin: 2% 3% 0 4.3%;
+  }
+#title-ab{
     font-family: "Oswald";
     font-size: 2vw;
     color:white;
     display: inline-block;
     text-decoration: none;
-    margin: 2% 4% 0 0%;
-}
-#titlu-soc{
+    margin: 2% 3% 0 0%;
+  }
+#title-soc{
     font-family: "Oswald";
     font-size: 2vw;
     color:white;
     display: inline-block;
     text-decoration: none;
-    margin: 2% 4% 0 0%;
-}
+    margin: 2% 0% 0 0%;
+  }
