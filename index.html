@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Bread Bank</title>
+        <link href="./resources/css/style-home.css" rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="mare">
+            <div class="header" id="link">
+                <a href="#ptlink" id="title-tbb">TBB</a>
+                <a href="#ptlink" id="title-tib">TIB</a>
+                <a href="#ptlink" id="title-tsb">TSB</a>
+                <a href="#ptlink" id="title">The Bread Bank</a>    
+                <a href="game.html" id="title-game">GAME</a>
+                <a href="#ptlink" id="title-ab">ABOUT US</a>
+                <a href="#ptlink" id="title-soc">SOCIALS</a>
+                <hr id="linie">
+            </div>
+            <div class="fundal"></div>
+            <div class="horizontalscroll">
+                <div class="TBB">
+                    <p class="titledesc">THE BREAD BANK</p>
+                    <p class="desc">The Bread Bank is the first collection we are going to release and it will consist of 10000 unique loaves of bread that act as a pass for our play-to-earn game. They will have a mint price of 0.03 ETH.</p>
+                </div>
+                <div class="TIB">
+                    <p class="titledesc">THE INGREDIENTS BANK</p>
+                    <p class="desc">The ingredients Bank will consist of an unlimited amount of sandwich ingredients that will be given to active players of the game. These ingredients can also be resold on the secondary market as some very rare pieces will be given to the most active players.</p>
+                </div>
+                <div class="TSB">
+                    <p class="titledesc">THE SANDWICH BANK</p>
+                    <p class="desc">The Sandwich Bank is the collection that ties The Bread Bank and The Ingredients Bank together by adding the possibility to make sandwiches out of a loaf of bread and ingredients owned. Each loaf will be able to create a maximum of 8 slices of bread before being burnt.
+                        When an owner of a loaf wants to make a sandwich they will need to slice their bread on our website and they will receive 2 slices of bread as well as a visibly sliced loaf, both in the form of NFTs. With the 2 slices, also on the site, a sandwich can be made with the addition of ingredients, this sandwich will also be an NFT. Every loaf of bread can be sliced a maximum of 4 times yielding 8 slices of bread. After the loaf gets cut the final time the original TBB NFT will get burnt.</p>
+                </div>
+                <div class="ROADMAP">
+                    <p class="titledesc">ROADMAP</p>
+                    <p class="desc">The Bread Bank is the first collection we are going to release and it will consist of 10000 unique loaves of bread that act as a pass for our play-to-earn game. They will have a mint price of 0.03 ETH.</p>
+                </div>
+            </div>
+        </div>
+        <script>
+            function replaceVerticalScrollByHorizontal( event ) {
+                if ( event.deltaY !== 0) {
+                 window.scroll(window.scrollX + event.deltaY * 2, window.scrollY );
+                 event.preventDefault();
+                }
+               }
+              
+               const mediaQuery = window.matchMedia( '(min-width: 770px)' );
+              
+               if ( mediaQuery.matches ) {
+                window.addEventListener( 'wheel', replaceVerticalScrollByHorizontal );
+               }
+        </script>
+    </body>
+</html>
