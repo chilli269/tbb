@@ -83,18 +83,9 @@ body{
     text-decoration: none;
     margin: 2% 0% 0 0%;
   }
-  #fundal{
-    position: absolute;
-    display: block;
-    max-width: 100%;
-    height:auto;
-  }
-  #fundal2{
-    position: absolute;
-    display: block;
-    max-width: 100%;
-    height:auto;
-    z-index: 18;
+  #fundal img{
+    width: 100%;
+    height: auto;
   }
   .horizontalscrolling{
     width: 400vw;
