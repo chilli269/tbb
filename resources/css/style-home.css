@@ -130,7 +130,6 @@ body{
 
   .img-comp-container {
     position: absolute;
-    aspect-ratio: 1/1;
     left:60vw;
     bottom: 10vh;
   }
@@ -145,6 +144,9 @@ body{
   .img-comp-img img {
     display: block;
     vertical-align: middle;
+    margin-top:4vh;
+    width: 25vw;
+    height: 25vw;
   }
   
   .img-comp-slider {
