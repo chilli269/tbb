@@ -15,7 +15,7 @@ body{
     top:0;
     bottom:0;
     width: 100%;
-    height: 9.4vh;
+    height: 13.7vh;
     z-index: 15;
   }
 .header a{
@@ -83,10 +83,18 @@ body{
     text-decoration: none;
     margin: 2% 0% 0 0%;
   }
-  .fundal{
-    width: 100%;
-    height:100%;
-    background-repeat: no-repeat;
+  #fundal{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    height:auto;
+  }
+  #fundal2{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    height:auto;
+    z-index: 18;
   }
   .horizontalscrolling{
     width: 400vw;
@@ -137,7 +145,7 @@ body{
   }
   .img-comp-container {
     position: relative;
-    height: 20vw;
+    height: 20;
     left:60vw;
     bottom: 10vh;
   }
