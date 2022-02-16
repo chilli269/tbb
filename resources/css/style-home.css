@@ -124,7 +124,7 @@ body{
     text-align: left;
     font-size: 1vw;
   }
-  .TIB{
+  #TIB{
     top:5vh;
     display: block;
     position: absolute;
