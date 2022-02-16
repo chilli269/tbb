@@ -2,12 +2,15 @@ body{
   background-color:black;
 }
 .header{
-  position: fixed;
+  position:fixed;
   padding: 0;
   margin:0;
   top:0;
   bottom:0;
   width: 100%;
+  height:9.4vw;
+  background-color:black;
+  z-index:1;
 }
 .header a{
   font-family: "Oswald";
@@ -29,6 +32,7 @@ body{
   display: inline-block;
   text-decoration: none;
   margin: 2% 0% 0 2.7%;
+
 }
 
 #title-tbb{
@@ -105,11 +109,54 @@ body{
   margin-top:37%;
   text-align:center;
   font-size:7vw;
+  z-index:1;
 
 }
-@media only screen and (max-width:1000px)
-{
-  body{
-    background-color:purple;
-  }
+.typewriter h2 {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  text-align:center;
+  font-size:7vw;
+  margin-top:37%;
+  animation: 
+  typing 4.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+  animation-iteration-count:infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100%}
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+#footer{
+  width: 100%;
+  overflow: hidden;
+  margin: 5px auto 10px auto;
+}
+.contact{
+  z-index:1;
+}
+#button-addon1 {
+  color: #ffffff;
+}
+
+i {
+  color: #ffffff;
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color:white;
+  font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none;
 }
