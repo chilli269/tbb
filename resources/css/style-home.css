@@ -85,133 +85,34 @@ a{
   filter:brightness(60%)
 }
 .bg{
+  float:left
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 }
 .bg img{
+  float:left;
   width: 100vw;
   height: 100vh;
   object-fit: cover;
 }
-  .horizontalscrolling{
-    width: 400vw;
-    overflow-x: auto;
-    white-space: nowrap;
-    display:inline-flex;
-    z-index: 10;
-  }
-  
-  #TBB{
-    top:5vh;
-    left:100vw;
-    display: block;
-    position: absolute;
-    color: white;
-    width: 100vw;
-  }
-  .titledesc{
-    text-align: center;
-    font-size: 7vw;
-  }
-  .desc{
-    position: absolute;
-    display: inline-block;
-    margin-left: 12vw;
-    margin-right: 50vw;
-    text-align: left;
-    font-size: 1vw;
-  }
-  #TIB{
-    top:5vh;
-    height: auto;
-    display: block;
-    position: absolute;
-    left: 200vw;
-    width: 100vw; 
-  }
-  #TSB{
-    top:5vh;
-    display: block;
-    position: absolute;
-    left: 300vw;
-    width: 100vw; 
-  }
-  #ROADMAP{
-    top:5vh;
-    display: block;
-    position: absolute;
-    left: 400vw;
-    width: 100vw; 
-  }
-  #ROADMAP p{
-    position: absolute;
-    display: block;
-    text-align: center;
-    width: 100%;
-  }
-  #ROADMAP img{
-    position: absolute;
-    display: block;
-    margin-top: 35vh;
-    width: 45vw;
-    height: auto;
-    left:27.5vw;
-  }
 
-  .img-comp-container {
-    position: absolute;
-    left:60vw;
-    bottom: 10vh;
-  }
+.TBB{
+  width: 100vw;
+  height: 100vh;
+  float:left;
+}
+.titledesc{
+  width: 100vw;
+  height:15vh;
+  text-align: center;
+  font-size: 7vw;
+}
+.desc{
+  width: 50vw;
+  height: 75vh;
+  float: left;
+}
   
-  .img-comp-img {
-    position: absolute;
-    width: auto;
-    height: auto;
-    overflow: hidden;
-  }
+
   
-  .img-comp-img img {
-    display: block;
-    vertical-align: middle;
-    margin-top:4vh;
-    width: 20vw;
-    height: 20vw;
-  }
-  
-  .img-comp-slider {
-    position: absolute;
-    z-index: 9;
-    cursor: ew-resize;
-     
-    width: 0.8vw;
-    height: 4vh;
-    background-color: #ffffff;
-    opacity: 0.7;
-    border-radius: 10%;
-  }
-#typewriter {
-    overflow: hidden;
-    border-right: .15em solid rgb(194, 89, 3);
-    white-space: nowrap; 
-    letter-spacing: .15em; 
-    text-align:center;
-    width: 50vw;
-    font-size:3vw;
-    animation: 
-    typing 4.5s steps(10, end),
-    blink-caret .75s step-end infinite;
-    animation-iteration-count:infinite;
-    color:white;
-    margin-top: 25vh;
-  }
-  
-  @keyframes typing {
-    from { width: 10% }
-    to { width: 50%}
-  }
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(194, 89, 3); }
-  }
