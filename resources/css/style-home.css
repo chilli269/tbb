@@ -4,20 +4,19 @@ body{
     margin: 0;
     font-family: "Oswald";
     color: white;
-    overflow: hidden;
-    overflow-y:hidden;
-    overscroll-behavior-y:none;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 a{
   text-decoration: none;
   color: white;
 }
 .major{
-  width:500vw;
-  height: 100vh;
+  width:100vh;
+  height: 500vh;                                                                                                                                                                                                                                                                                                                                                     00vh;
 }
 .header{
-  position: fixed;
+  position: absolute;
   width: 100vw;
   height: 10vh;
   text-align: center;
@@ -72,47 +71,91 @@ a{
   float:right;
   margin-top: 2.2vh;
 }
-.bgh{
-  float: right;
-  width: 400vw;
-  height: 10vh;
-  overflow: hidden;
-}
-.bgh img{
-  width: 400vw;
-  height: 10vh;
-  object-fit: cover;
-  filter:brightness(60%)
-}
 .bg{
-  float:left
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  z-index: 10;
 }
 .bg img{
-  float:left;
   width: 100vw;
   height: 100vh;
   object-fit: cover;
 }
-
-.TBB{
+#TBB{
   width: 100vw;
   height: 100vh;
-  float:left;
 }
-.titledesc{
-  width: 100vw;
-  height:15vh;
+.title1{
   text-align: center;
-  font-size: 7vw;
+  font-size: 5vw;
 }
-.desc{
-  width: 50vw;
-  height: 75vh;
+.description{
+  width:30vw;
+  height: 50vh;
+  margin:auto 0;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  text-align: center;
+  font-size: 1vw;
   float: left;
 }
-  
+.representation{
+  width:30vw;
+  height: 50vh;
+  margin:auto 0;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  float: right;
+}
+.representation img{
+  width:20vw;
+  height:20vw;
+}
+#TIB{
+  width: 100vw;
+  height: 100vh;
+}
+#TSB{
+  width: 100vw;
+  height: 100vh;
+}
+#RM{
+  width: 100vw;
+  height: 100vh;
+}
+.representation1{
+  width: 100vw;
+  height: 70vh;
+}
+.representation1 img{
+  margin-left: 17.5vw;
+  margin-right: 17.5vw;
+  width: 65vw;
+  height: auto;
+}
+.mint{
+  width: 100vw;
+  height: 30vh;
+}
+.mint h3 {
+  overflow: hidden;
+  border-right: .15em solid rgb(194, 89, 3);
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  text-align:center;
+  font-size:7vw;
+  animation: 
+  typing 4.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+  animation-iteration-count:infinite;
+}
 
-  
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100%}
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(194, 89, 3); }
+}
