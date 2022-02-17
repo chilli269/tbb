@@ -3,108 +3,83 @@ body{
   margin:0px;
   min-height:100%;
   width:100%;
+  font-family: "Oswald";
 }
 footer{
   margin:0px;
   min-height:100%;
   width:100%;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
 .header{
-  position:fixed;
-  padding:0;
-  margin:0;
-  top:0;
-  bottom:0;
-  width:100%;
-  height:13.7vh;
-  background-image:url("../header.png");
-  background-repeat:none;
-  background-size:cover;
-  z-index:20;
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  font-size: 1.8vw;
+  z-index: 20;
+  background-image: url(../header.png);
+  background-repeat: none;
+  background-size: cover;
 }
-.header a{
-  font-family: "Oswald";
-  color:white;
-  display: inline-block;
-  text-decoration: none;
+.tbbh{
+  width: 7.5vw;
+  height: 10vh;
+  float:left;
+  margin-top: 2.2vh;
 }
-#title{
-  font-family: "Oswald";
-  font-size: 3.5vw;
-  color:white;
-  display: inline-block;
-  text-decoration: none;
-  margin: 2% 0% 0 2.7%;
-
+.tibh{
+  width: 7.5vw;
+  height: 10vh;
+  float:left;
+  margin-top: 2.2vh;
 }
-
-#title-tbb{
-  font-family: "Oswald";
-  font-size: 2vw;
-  color:white;
-  display: inline-block;
-  text-decoration: none;
-  margin: 2% 5% 0 12%;
-
+.tsbh{
+  width: 7.5vw;
+  height: 10vh;
+  float:left;
+  margin-top: 2.2vh;
 }
-#title-tib{
-  font-family: "Oswald";
-  font-size: 2vw;
-  color:white;
-  display: inline-block;
-  text-decoration: none;
-  margin: 2% 5% 0 0%;
+.rmh{
+  width: 17.5vw;
+  height: 10vh;
+  float:left;
+  margin-top: 2.2vh;
 }
-#title-tsb{
-  font-family: "Oswald";
-  font-size: 2vw;
-  color:white;
-  display: inline-block;
-  text-decoration: none;
-  margin: 2% 5% 0 0%;
+.th{
+  width: 20vw;
+  height: 10vh;
+  float:left;
+  font-size: 3vw;
 }
-
-#title-game{
-  font-family: "Oswald";
-  font-size: 2vw;
-  color:white;
-  display: inline-block;
-  text-decoration: none;
-  margin: 2% 3% 0 4.3%;
+.gh{
+  width: 13.3vw;
+  height: 10vh;
+  float:right;
+  margin-top: 2.2vh;
 }
-#title-ab{
-  font-family: "Oswald";
-  font-size: 2vw;
-  color:white;
-  display: inline-block;
-  text-decoration: none;
-  margin: 2% 3% 0 0%;
+.abh{
+  width: 13.3vw;
+  height: 10vh;
+  float:right;
+  margin-top: 2.2vh;
 }
-#title-soc{
-  font-family: "Oswald";
-  font-size: 2vw;
-  color:white;
-  display: inline-block;
-  text-decoration: none;
-  margin: 2% 0% 0 0%;
-}
-.title-the-game{
-  color:white;
-  font-size:3vw;
-  font-family:"Oswald";
-  display:block;
-  margin-top:13%;
-  margin-left:12%;
+.soch{
+  width: 13.3vw;
+  height: 10vh;
+  float:right;
+  margin-top: 2.2vh;
 }
 .game-info{
   color:white;
   font-family:"Oswald";
-  display:block;
   margin-left:12%;
   margin-right:50%;
   font-size:1.5vw;
   text-align:left;
-  position:absolute;
 }
 .coming-soon{
   color:white;
