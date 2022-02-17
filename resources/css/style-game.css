@@ -15,63 +15,75 @@ a{
   color: white;
 }
 .header{
-  position: fixed;
-  width: 100vw;
-  height: 10vh;
-  text-align: center;
-  font-size: 1.8vw;
-  z-index: 20;
-  background-image: url(../header.png);
-  background-repeat: none;
-  background-size: cover;
+  position:fixed;
+  width:100vw;
+  height:10vh;
+  text-align:center;
+  font-size:1.8vw;
+  z-index:20;
+  background-image:url(../header.png);
+  background-repeat:none;
+  background-size:cover;
 }
 .tbbh{
-  width: 7.5vw;
-  height: 10vh;
+  width:7.5vw;
+  height:10vh;
   float:left;
-  margin-top: 2.2vh;
+  margin-top:2.2vh;
 }
 .tibh{
-  width: 7.5vw;
-  height: 10vh;
+  width:7.5vw;
+  height:10vh;
   float:left;
-  margin-top: 2.2vh;
+  margin-top:2.2vh;
 }
 .tsbh{
-  width: 7.5vw;
-  height: 10vh;
+  width:7.5vw;
+  height:10vh;
   float:left;
-  margin-top: 2.2vh;
+  margin-top:2.2vh;
 }
 .rmh{
-  width: 17.5vw;
-  height: 10vh;
+  width:17.5vw;
+  height:10vh;
   float:left;
-  margin-top: 2.2vh;
+  margin-top:2.2vh;
 }
 .th{
-  width: 20vw;
-  height: 10vh;
+  width:20vw;
+  height:10vh;
   float:left;
-  font-size: 3vw;
+  font-size:3vw;
 }
 .gh{
-  width: 13.3vw;
-  height: 10vh;
+  width:13.3vw;
+  height:10vh;
   float:right;
-  margin-top: 2.2vh;
+  margin-top:2.2vh;
 }
 .abh{
-  width: 13.3vw;
-  height: 10vh;
+  width:13.3vw;
+  height:10vh;
   float:right;
-  margin-top: 2.2vh;
+  margin-top:2.2vh;
 }
 .soch{
-  width: 13.3vw;
-  height: 10vh;
+  width:13.3vw;
+  height:10vh;
   float:right;
-  margin-top: 2.2vh;
+  margin-top:2.2vh;
+}
+#title-info{
+  margin-top:10%;
+  margin-bottom:20%;
+}
+.title-the-game{
+  color:white;
+  font-family:"Oswald";
+  margin-left:12%;
+  margin-right:50%;
+  font-size:3vw;
+  text-align:left;
 }
 .game-info{
   color:white;
