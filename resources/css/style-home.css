@@ -1,5 +1,5 @@
 body{
-    background-color: black; 
+    background-color: rgb(14, 14, 14); 
     padding: 0; 
     margin: 0;
     font-family: "Oswald";
@@ -90,13 +90,12 @@ a{
   font-size: 5vw;
 }
 .description{
-  width:30vw;
+  width:35vw;
   height: 50vh;
-  margin:auto 0;
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 7.5vw;
+  margin-right: 7.5vw;
   text-align: center;
-  font-size: 1vw;
+  font-size: 1.3vw;
   float: left;
 }
 .representation{
@@ -108,7 +107,8 @@ a{
   float: right;
 }
 .representation img{
-  height: 20vw;
+  height: 23vw;
+  border-radius: 5%;
 }
 #TIB{
   width: 100vw;
