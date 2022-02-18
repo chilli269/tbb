@@ -108,8 +108,7 @@ a{
   float: right;
 }
 .representation img{
-  width:20vw;
-  height:20vw;
+  height: 20vw;
 }
 #TIB{
   width: 100vw;
@@ -143,7 +142,7 @@ a{
   margin: 0 auto; 
   letter-spacing: .15em; 
   text-align:center;
-  font-size:7vw;
+  font-size:6vw;
   animation: 
   typing 4.5s steps(40, end),
   blink-caret .75s step-end infinite;
