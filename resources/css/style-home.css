@@ -126,12 +126,11 @@ a{
 .representation1{
   width: 100vw;
   height: 70vh;
+  text-align: center;
 }
 .representation1 img{
-  margin-left: 17.5vw;
-  margin-right: 17.5vw;
-  width: 65vw;
-  height: auto;
+  height: 65vh;
+  width: auto;
 }
 .mint{
   width: 100vw;
