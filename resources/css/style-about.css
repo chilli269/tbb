@@ -15,7 +15,7 @@ a{
   color: white;
 }
 .header{
-  position:fixed;
+  position:sticky;
   width:100vw;
   height:10vh;
   text-align:center;
@@ -75,3 +75,124 @@ a{
   float:right;
   margin-top:2.2vh;
 }
+.title-game{
+  color:white;
+  font-family:"Oswald";
+  padding-bottom:10rem;
+  font-size:2.5vw;
+  position:absolute;
+  margin-left:12%;
+  margin-top:3%;
+}
+.game-content{
+  color:white;
+  font-family:"Oswald";
+  padding-bottom:10rem;
+  font-size:1.5vw;
+  position:absolute;
+  margin-top:13%;
+  margin-right:50%;
+  margin-left:12%;
+}
+.typewriter h2 {
+  overflow: hidden;
+  border-right: .15em solid rgb(194, 89, 3);
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  text-align:center;
+  font-size:7vw;
+  margin-top:45%;
+  animation: 
+  typing 4.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+  animation-iteration-count:infinite;
+  color:white;
+  font-family:"Oswald";
+  text-transform:uppercase;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100%}
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgba(230, 111, 0, 0.808); }
+}
+#footer-cs{
+  color:white;
+  text-transform:uppercase;
+  font-family:"Oswald";
+  text-align:center;
+  margin-top:20%;
+  font-size:1.5vw;
+}
+#email-cs{
+  color:white;
+  font-family:"Oswald";
+  margin-left:12%;
+  display:inline-block;
+  margin-bottom:3%;
+  text-align:center;
+}
+.email{
+  font-size:1.2vw;
+  margin:10%;
+}
+.mail{
+  font-size:1.2vw;
+  margin: 5% 0 0 0;
+  padding-top:0;
+}
+#quote{
+  color:white;
+  font-family:"Oswald";
+  font-style:italic;
+  display:inline-block;
+  text-align:center;
+  margin-left:15%;
+  font-size:1.1vw;
+}
+#social{
+  display:inline-block;
+  height: 100%;
+}
+#instagram{
+  width:2vw;
+  margin-left:auto;
+  margin-right:12%;
+  float:right;
+  position:absolute;
+  margin-left:15%;
+  margin-bottom:7%;
+  max-width: 100%;
+  max-height: 100vh;
+}
+#twitter{
+  width:2vw;
+  margin-left:auto;
+  margin-right:2%;
+  float:right;
+  position:absolute;
+  margin-left:20%;
+  margin-bottom:7%;
+  max-width: 100%;
+  max-height: 100vh;
+   
+}
+#discord{
+  width:2vw;
+  margin-left:auto;
+  margin-right:2%;
+  margin-bottom:3%;
+  float:right;
+  position:absolute;
+  margin-left:25%;
+  margin-bottom:7%;
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+
+
