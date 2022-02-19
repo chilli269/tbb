@@ -83,7 +83,7 @@ a{
   float:right;
   margin-top: 3vh;
 }
-.title-game{
+.title-about{
   color:white;
   font-family:"Oswald";
   padding-bottom:10rem;
@@ -91,7 +91,7 @@ a{
   margin-left:12%;
   margin-top:3%;
 }
-.game-content{
+.about-content{
   color:white;
   font-family:"Oswald";
   padding-bottom:10rem;
@@ -189,13 +189,18 @@ a{
   text-align:left;
 }
 @media(max-aspect-ratio:5/4){
+  #content-page{
+    width:100vw;
+    height:100vh;
+    text-align:center;
+  }
   .title-game{
   color:white;
   font-family:"Oswald";
   padding-bottom:10rem;
   font-size:5.5vw;
   margin-left:12%;
-  margin-top:3%;
+  height:10vh;
   text-align:center;
   }
   .game-content{
@@ -203,9 +208,7 @@ a{
   font-family:"Oswald";
   padding-bottom:10rem;
   font-size:2.5vw;
-  margin-top:23%;
   text-align:center;
-  width:85vw;
   margin-right:7.5vw;
   margin-left:7.5vw;
   }
