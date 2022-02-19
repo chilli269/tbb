@@ -225,26 +225,26 @@ a{
 @media (max-aspect-ratio: 5/4){
   .description{
     width:85vw;
-    height: 30vh;
+    height: 35vh;
     margin-left: 7.5vw;
     margin-right: 7.5vw;
     text-align: center;
-    font-size: 1.5vh;
+    font-size: 1.7vh;
   }
   .representation{
     width:80vw;
-    height: 40vh;
+    height: 45vh;
     margin:auto 0;
     margin-left: 10vw;
     margin-right: 10vw;
     text-align: center;
   }
   .representation img{
-    height: 35vh;
+    height: 40vh;
     border-radius: 5%;
   }
-}
-.major{
-  width:100vw;
-  height: 500vh;
+  .major{
+    width:100vw;
+    height: 500vh;
+  }
 }
