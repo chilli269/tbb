@@ -6,6 +6,7 @@ body{
     color: white;
     overflow-y: scroll;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 a{
   text-decoration: none;
@@ -117,6 +118,8 @@ a{
 #TSB{
   width: 100vw;
   height: 100vh;
+  background-image: url("../IMG_0874\ \(1\).png");
+  background-size: cover;
 }
 #RM{
   width: 100vw;
