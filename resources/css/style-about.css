@@ -226,6 +226,10 @@ a{
     font-family:"Oswald";
     text-transform:uppercase;
   }
+  #footer{
+    width: 100vw;
+    height: 100vh;
+  }
   #footer-cs{
     color:white;
     text-transform:uppercase;
@@ -238,7 +242,7 @@ a{
   }
   #content{
     width:100vw;
-    height:7vh;
+    height:40vh;
   }
   #email-cs{
     color:white;
@@ -246,10 +250,11 @@ a{
     margin-bottom:3%;
     text-align:center;
     height:7vh;
+    width: 100vw;
+    font-size:1.7vw;
   }
   .email{
-    font-size:1.2vw;
-    margin-left:12%;
+    margin:0;
   }
   #quote{
     color:white;
@@ -257,33 +262,33 @@ a{
     font-style:italic;
     text-align:center;
     font-size:2.3vw;
-    width:33.3vw;
-    float:left;
+    width:100vw;
+    height: 7vh;
   }
   #social{
     width:100vw;
+    height: 20vh;
   }
   .fphoto img{
-    margin-top:4vh;
-    width:5vw;
-    height:5vw;
+    width:5vh;
+    height:5vh;
   }
   #instagram{
-    width:40vw;
-    text-align:right;
+    width:100vw;
+    text-align:center;
     margin-bottom:4vh;
+    height: 6vh;
   }
   #twitter{
-    width:20vw;
+    width:100vw;
     text-align:center;
     margin-top:4vh;
+    height: 6vh;
   }
   #discord{
-    width:40vw;
+    width:100vw;
+    height: 6vh;
     text-align:center;
     margin-top:4vh;
   }
 }
-
-
-
