@@ -4,73 +4,81 @@ body{
     margin: 0;
     font-family: "Oswald";
     color: white;
-    overflow-y: scroll;
-    overflow-x: hidden;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 a{
   text-decoration: none;
   color: white;
 }
+.title1 p{
+  margin: 2vh;
+}
 .major{
-  width:100vh;
-  height: 500vh;
+  width:100vw;
+  height: 480vh;
 }
 .header{
   position: absolute;
   width: 100vw;
   height: 10vh;
   text-align: center;
-  font-size: 1.8vw;
+  font-size: 2.3vw;
   z-index: 20;
 }
 .tbbh{
-  width: 7.5vw;
+  width: 8.125vw;
   height: 10vh;
   float:left;
-  margin-top: 2.2vh;
+  margin-top: 3vh;
 }
 .tibh{
-  width: 7.5vw;
+  width: 8.125vw;
   height: 10vh;
   float:left;
-  margin-top: 2.2vh;
+  margin-top: 3vh;
 }
 .tsbh{
-  width: 7.5vw;
+  width: 8.125vw;
   height: 10vh;
   float:left;
-  margin-top: 2.2vh;
+  margin-top: 3vh;
 }
 .rmh{
-  width: 17.5vw;
+  width: 18.125vw;
   height: 10vh;
   float:left;
-  margin-top: 2.2vh;
+  margin-top: 3vh;
 }
 .th{
-  width: 20vw;
+  width: 15vw;
   height: 10vh;
   float:left;
   font-size: 3vw;
+  margin-top: 1vh;
+}
+.th img{
+  width: 8vw;
+  height: auto;
 }
 .gh{
-  width: 13.3vw;
+  width: 14.13vw;
   height: 10vh;
   float:right;
-  margin-top: 2.2vh;
+  margin-top: 3vh;
 }
 .abh{
-  width: 13.3vw;
+  width: 14.13vw;
   height: 10vh;
   float:right;
-  margin-top: 2.2vh;
+  margin-top: 3vh;
 }
 .soch{
-  width: 13.3vw;
+  width: 14.13vw;
   height: 10vh;
   float:right;
-  margin-top: 2.2vh;
+  margin-top: 3vh;
 }
 .bg{
   width: 100vw;
@@ -85,6 +93,9 @@ a{
 #TBB{
   width: 100vw;
   height: 100vh;
+  background-image: url("../paini.png");
+  background-size: cover;
+  background-position: center;
 }
 .title1{
   text-align: center;
@@ -114,6 +125,9 @@ a{
 #TIB{
   width: 100vw;
   height: 100vh;
+  background-image: url("../ingreddiente.png");
+  background-size: cover;
+  background-position: center;
 }
 #TSB{
   width: 100vw;
@@ -124,7 +138,7 @@ a{
 }
 #RM{
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
 }
 .representation1{
   width: 100vw;
@@ -267,5 +281,19 @@ a{
 .representation1 img{
   width: 80vw;
   height: auto;
+}
+#TIB{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../ingreddiente\ -\ Copy.png");
+  background-size: cover;
+  background-position: center;
+}
+#TBB{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../paini\ -\ Copy.png");
+  background-size: cover;
+  background-position: center;
 }
 }
