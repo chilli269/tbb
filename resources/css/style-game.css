@@ -234,7 +234,7 @@ a{
     font-family:"Oswald";
     text-align:center;
     margin-top:20%;
-    font-size:1.8vw;
+    font-size:3.3vw;
     width:100vw;
     height:5vh;
   }
@@ -258,35 +258,32 @@ a{
     font-family:"Oswald";
     font-style:italic;
     text-align:center;
-    font-size:1.1vw;
+    font-size:2.3vw;
     width:33.3vw;
     float:left;
   }
   #social{
-    float:right;
-    width:33.4vw;
-    
+    width:100vw;
   }
   .fphoto img{
     margin-top:4vh;
-    width:2vw;
-    height:2vw;
+    width:5vw;
+    height:5vw;
   }
   #instagram{
-    width:14.7vw;
-    float:left;
+    width:40vw;
     text-align:right;
+    margin-bottom:4vh;
   }
   #twitter{
-    width:4vw;
-    float:left;
+    width:20vw;
     text-align:center;
-     
+    margin-top:4vh;
   }
   #discord{
-    width:14.7vw;
-    float:right;
-    text-align:left;
+    width:40vw;
+    text-align:center;
+    margin-top:4vh;
   }
 }
 
