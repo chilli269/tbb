@@ -131,72 +131,61 @@ a{
   font-family:"Oswald";
   text-align:center;
   margin-top:20%;
-  font-size:1.5vw;
+  font-size:1.8vw;
+  width:100vw;
+  height:5vh;
+}
+#content{
+  width:100vw;
+  height:7vh;
 }
 #email-cs{
   color:white;
   font-family:"Oswald";
-  margin-left:12%;
-  display:inline-block;
   margin-bottom:3%;
   text-align:center;
+  width:33.3vw;
+  height:7vh;
+  float:left;
 }
 .email{
   font-size:1.2vw;
-  margin:10%;
-}
-.mail{
-  font-size:1.2vw;
-  margin: 5% 0 0 0;
-  padding-top:0;
+  margin-left:12%;
 }
 #quote{
   color:white;
   font-family:"Oswald";
   font-style:italic;
-  display:inline-block;
   text-align:center;
-  margin-left:15%;
   font-size:1.1vw;
+  width:33.3vw;
+  float:left;
 }
 #social{
-  display:inline-block;
-  height: 100%;
+  float:right;
+  width:33.4vw;
+  
+}
+.fphoto img{
+  margin-top:4vh;
+  width:2vw;
+  height:2vw;
 }
 #instagram{
-  width:2vw;
-  margin-left:auto;
-  margin-right:12%;
-  float:right;
-  position:absolute;
-  margin-left:15%;
-  margin-bottom:7%;
-  max-width: 100%;
-  max-height: 100vh;
+  width:14.7vw;
+  float:left;
+  text-align:right;
 }
 #twitter{
-  width:2vw;
-  margin-left:auto;
-  margin-right:2%;
-  float:right;
-  position:absolute;
-  margin-left:20%;
-  margin-bottom:7%;
-  max-width: 100%;
-  max-height: 100vh;
+  width:4vw;
+  float:left;
+  text-align:center;
    
 }
 #discord{
-  width:2vw;
-  margin-left:auto;
-  margin-right:2%;
-  margin-bottom:3%;
+  width:14.7vw;
   float:right;
-  position:absolute;
-  margin-left:25%;
-  margin-bottom:7%;
-  max-width: 100%;
-  max-height: 100vh;
+  text-align:left;
 }
 
 
