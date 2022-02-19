@@ -15,65 +15,70 @@ a{
   color: white;
 }
 .header{
-  position:sticky;
-  width:100vw;
-  height:10vh;
-  text-align:center;
-  font-size:1.8vw;
-  z-index:20;
-  background-image:url(../header.png);
-  background-repeat:none;
-  background-size:cover;
-  display:block;
-  float:top;
+  position: sticky;
+  float: top;
+  display: block;
+  width: 100vw;
+  height: 13.5vw;
+  text-align: center;
+  font-size: 2.3vw;
+  z-index: 20;
+  background-image: url("../header.png");
+  background-repeat: none;
+  background-size: cover;
 }
 .tbbh{
-  width:7.5vw;
-  height:10vh;
+  width: 8.125vw;
+  height: 10vh;
   float:left;
-  margin-top:2.2vh;
+  margin-top: 3vh;
 }
 .tibh{
-  width:7.5vw;
-  height:10vh;
+  width: 8.125vw;
+  height: 10vh;
   float:left;
-  margin-top:2.2vh;
+  margin-top: 3vh;
 }
 .tsbh{
-  width:7.5vw;
-  height:10vh;
+  width: 8.125vw;
+  height: 10vh;
   float:left;
-  margin-top:2.2vh;
+  margin-top: 3vh;
 }
 .rmh{
-  width:17.5vw;
-  height:10vh;
+  width: 18.125vw;
+  height: 10vh;
   float:left;
-  margin-top:2.2vh;
+  margin-top: 3vh;
 }
 .th{
-  width:20vw;
-  height:10vh;
+  width: 15vw;
+  height: 10vh;
   float:left;
-  font-size:3vw;
+  font-size: 3vw;
+  margin-top: 1vh;
+}
+.th img{
+  width: 8vw;
+  height: auto;
 }
 .gh{
-  width:13.3vw;
-  height:10vh;
+  width: 14.13vw;
+  height: 10vh;
   float:right;
-  margin-top:2.2vh;
+  margin-top: 3vh;
 }
 .abh{
-  width:13.3vw;
-  height:10vh;
+  width: 14.13vw;
+  height: 10vh;
   float:right;
-  margin-top:2.2vh;
+  margin-top: 3vh;
 }
 .soch{
-  width:13.3vw;
-  height:10vh;
+  width: 14.13vw;
+  height: 10vh;
   float:right;
-  margin-top:2.2vh;
+  margin-top: 3vh;
 }
 .title-game{
   color:white;
