@@ -296,4 +296,67 @@ a{
   background-size: cover;
   background-position: center;
 }
+#footer{
+  width: 100vw;
+  height: 32vh;
+}
+#footer-cs{
+  color:white;
+  text-transform:uppercase;
+  font-family:"Oswald";
+  text-align:center;
+  margin-top:20%;
+  font-size:2.8vh;
+  width:100vw;
+  height:7vh;
+}
+#content{
+  width:100vw;
+  height:30vh;
+}
+#email-cs{
+  color:white;
+  font-family:"Oswald";
+  margin-bottom:3%;
+  text-align:center;
+  height:5vh;
+  width: 100vw;
+  font-size:1.5vh;
+}
+.email{
+  margin:0;
+  font-size:2.5vh;
+}
+#quote{
+  color:white;
+  font-family:"Oswald";
+  font-style:italic;
+  text-align:center;
+  font-size:2.5vh;
+  width:100vw;
+  height: 9vh;
+}
+#social{
+  width:100vw;
+  height: 8vh;
+}
+.fphoto img{
+  width:5vh;
+  height:5vh;
+}
+#instagram{
+  width:40vw;
+  text-align:right;
+  height: 6vh;
+}
+#twitter{
+  width:20vw;
+  text-align:center;
+  height: 6vh;
+}
+#discord{
+  width:40vw;
+  height: 6vh;
+  text-align:left;
+}
 }
