@@ -91,12 +91,12 @@ a{
   font-size: 5vw;
 }
 .description{
-  width:35vw;
+  width:37.5vw;
   height: 50vh;
   margin-left: 7.5vw;
-  margin-right: 7.5vw;
+  margin-right: 5vw;
   text-align: center;
-  font-size: 1.3vw;
+  font-size: 1.4vw;
   float: left;
 }
 .representation{
@@ -108,7 +108,7 @@ a{
   float: right;
 }
 .representation img{
-  height: 23vw;
+  height: 25vw;
   border-radius: 5%;
 }
 #TIB{
@@ -120,6 +120,7 @@ a{
   height: 100vh;
   background-image: url("../IMG_0874\ \(1\).png");
   background-size: cover;
+  background-position: center;
 }
 #RM{
   width: 100vw;
@@ -225,7 +226,7 @@ a{
 @media (max-aspect-ratio: 5/4){
   .description{
     width:85vw;
-    height: 35vh;
+    max-height: 32vh;
     margin-left: 7.5vw;
     margin-right: 7.5vw;
     text-align: center;
@@ -240,11 +241,31 @@ a{
     text-align: center;
   }
   .representation img{
-    height: 40vh;
+    height: 37vh;
     border-radius: 5%;
+  }
+  #TSB{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../IMG_0874\ -\ Copy.png");
+    background-size: cover;
+    background-position: center;
   }
   .major{
     width:100vw;
-    height: 500vh;
+    height: auto;
   }
+  #RM{
+  width: 100vw;
+  height: auto;
+}
+.representation1{
+  width: 100vw;
+  height: auto;
+  text-align: center;
+}
+.representation1 img{
+  width: 80vw;
+  height: auto;
+}
 }
