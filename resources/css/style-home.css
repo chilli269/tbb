@@ -245,7 +245,13 @@ a{
 .menu-btn{
   display: none;
 }
+#video2{
+  display: none;
+}
 @media (max-aspect-ratio: 5/4){
+  #video1{
+    display: none;
+  }
   .description{
     width:85vw;
     max-height: 32vh;
