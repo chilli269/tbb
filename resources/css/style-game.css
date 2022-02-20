@@ -120,7 +120,7 @@ a{
 }
 .typewriter{
   width: 100vw;
-  height: 50vh;
+  height: 10vh;
 }
 .typewriter h2 {
   overflow: hidden;
@@ -222,11 +222,12 @@ a{
 }
 @media(max-aspect-ratio:5/4){
   .title-game{
-  color:white;
-  font-family:"Oswald";
-  font-size:5.5vw;
-  margin-top:3%;
-  text-align:center;
+    width:100vw;
+    height:15vh;
+    text-align:center;
+    font-size:5.3vw;
+    margin:0;
+    margin-top:6vh;
   }
   .game-content{
   color:white;
@@ -239,7 +240,6 @@ a{
   margin-right:7.5vw;
   margin-left:7.5vw;
   margin-bottom:20vw;
-  display:block;
   }
   .animation-game{
     width:80vw;
@@ -255,6 +255,10 @@ a{
     border-radius: 5%;
     height:auto;
   }
+  .typewriter{
+    width:100vw;
+    height:10vh;
+  }
   .typewriter h2{
     overflow: hidden;
     border-right: .15em solid rgb(194, 89, 3);
@@ -263,7 +267,6 @@ a{
     letter-spacing: .15em; 
     text-align:center;
     font-size:7vw;
-    margin-top:10%;
     animation: 
     typing 4.5s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -354,7 +357,7 @@ a{
     display: block;
   }
   .wrapper{
-    position: absolute;
+    position:fixed;
     top: 0;
     left: 0;
     height: 100%;
@@ -362,12 +365,15 @@ a{
     clip-path: circle(25px at calc(100% - 45px) 45px);
     transition: all 0.3s ease-in-out;
     z-index: 1;
+    background-image:url("../header.png");
+    background-repeat:none;
+    background-size:cover;
   }
   #active:checked ~ .wrapper{
     clip-path: circle(75%);
   }
   .menu-btn{
-    position: absolute;
+    position:fixed;
     z-index: 2;
     right: 20px;
     /* left: 20px; */
