@@ -17,6 +17,10 @@ a{
   text-decoration: none;
   color: white;
 }
+.pg{
+  height:100vh;
+  width:100vw;
+}
 .header{
   position: sticky;
   float: top;
@@ -90,7 +94,7 @@ a{
   font-size:2.5vw;
   position:absolute;
   margin-left:12%;
-  margin-top:3%;
+  height:10vh;
 }
 .game-content{
   color:white;
@@ -98,9 +102,27 @@ a{
   padding-bottom:10rem;
   font-size:1.5vw;
   position:absolute;
-  margin-top:13%;
-  margin-right:50%;
+  margin-top:20vh;
+  width:45vw;
   margin-left:12%;
+  float:left;
+}
+.animation-game{
+  width:20vw;
+  height: 30vh;
+  margin:auto 0;
+  margin-left: 25vw;
+  margin-right: 20vw;
+  float: right;
+  margin-top:25vh;
+}
+.animation-game img{
+  height: 20vw;
+  border-radius: 5%;
+}
+.typewriter{
+  width: 100vw;
+  height: 40vh;
 }
 .typewriter h2 {
   overflow: hidden;
@@ -210,6 +232,20 @@ a{
   width:85vw;
   margin-right:7.5vw;
   margin-left:7.5vw;
+  margin-bottom:10vw;;
+  }
+  .animation-game{
+    width:80vw;
+    height: 45vh;
+    margin:auto 0;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+    margin-top:60vh;
+  }
+  .animation-game img{
+    height: 37vh;
+    border-radius: 5%;
   }
   .typewriter h2{
     overflow: hidden;
@@ -218,8 +254,8 @@ a{
     margin: 0 auto; 
     letter-spacing: .15em; 
     text-align:center;
-    font-size:5vw;
-    margin-top:65vh;
+    font-size:7vw;
+    margin-top:70vh;
     animation: 
     typing 4.5s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -237,7 +273,7 @@ a{
     text-transform:uppercase;
     font-family:"Oswald";
     text-align:center;
-    margin-top:20%;
+    margin-top:35%;
     font-size:2.8vh;
     width:100vw;
     height:7vh;

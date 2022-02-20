@@ -17,6 +17,10 @@ a{
   text-decoration: none;
   color: white;
 }
+.pga{
+  width:100vw;
+  height:100vh;
+}
 .header{
   position: sticky;
   float: top;
@@ -83,11 +87,16 @@ a{
   float:right;
   margin-top: 3vh;
 }
+.pga{
+  width:100vw;
+  height:100vh;
+}
 .title-about{
   color:white;
   font-family:"Oswald";
   padding-bottom:10rem;
   font-size:2.5vw;
+  position:absolute;
   margin-left:12%;
   margin-top:3%;
 }
@@ -96,9 +105,11 @@ a{
   font-family:"Oswald";
   padding-bottom:10rem;
   font-size:1.5vw;
+  position:absolute;
   margin-top:13%;
   margin-right:50%;
   margin-left:12%;
+  margin-bottom:10vh;
 }
 .typewriter h2 {
   overflow: hidden;
@@ -189,107 +200,106 @@ a{
   text-align:left;
 }
 @media(max-aspect-ratio:5/4){
-  #content-page{
-    width:100vw;
-    height:100vh;
-    text-align:center;
-  }
-  .title-game{
-  color:white;
-  font-family:"Oswald";
-  padding-bottom:10rem;
-  font-size:5.5vw;
-  margin-left:12%;
-  height:10vh;
-  text-align:center;
-  }
-  .game-content{
-  color:white;
-  font-family:"Oswald";
-  padding-bottom:10rem;
-  font-size:2.5vw;
-  text-align:center;
-  margin-right:7.5vw;
-  margin-left:7.5vw;
-  }
-  .typewriter h2{
-    overflow: hidden;
-    border-right: .15em solid rgb(194, 89, 3);
-    white-space: nowrap; 
-    margin: 0 auto; 
-    letter-spacing: .15em; 
-    text-align:center;
-    font-size:5vw;
-    margin-top:65vh;
-    animation: 
-    typing 4.5s steps(40, end),
-    blink-caret .75s step-end infinite;
-    animation-iteration-count:infinite;
+  .about-game{
     color:white;
     font-family:"Oswald";
-    text-transform:uppercase;
-  }
-  #footer{
-    width: 100vw;
-    height: 32vh;
-  }
-  #footer-cs{
-    color:white;
-    text-transform:uppercase;
-    font-family:"Oswald";
+    padding-bottom:10rem;
+    font-size:6.5vw;
+    height:10vh;
+    width:85vw;
     text-align:center;
-    margin-top:20%;
-    font-size:2.8vh;
-    width:100vw;
-    height:7vh;
-  }
-  #content{
-    width:100vw;
-    height:30vh;
-  }
-  #email-cs{
+    margin-right:7.5vw;
+    margin-left:7.5vw;
+    }
+    .about-content{
     color:white;
     font-family:"Oswald";
-    margin-bottom:3%;
+    padding-bottom:10rem;
+    font-size:2.5vw;
     text-align:center;
-    height:5vh;
-    width: 100vw;
-    font-size:1.5vh;
+    width:85vw;
+    margin-right:7.5vw;
+    margin-left:7.5vw;
+    }
+    .typewriter h2{
+      overflow: hidden;
+      border-right: .15em solid rgb(194, 89, 3);
+      white-space: nowrap; 
+      margin: 0 auto; 
+      letter-spacing: .15em; 
+      text-align:center;
+      font-size:7vw;
+      margin-top:65vh;
+      animation: 
+      typing 4.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+      animation-iteration-count:infinite;
+      color:white;
+      font-family:"Oswald", cursive;
+      text-transform:uppercase;
+    }
+    #footer{
+      width: 100vw;
+      height: 32vh;
+    }
+    #footer-cs{
+      color:white;
+      text-transform:uppercase;
+      font-family:"Oswald";
+      text-align:center;
+      margin-top:20%;
+      font-size:2.8vh;
+      width:100vw;
+      height:7vh;
+    }
+    #content{
+      width:100vw;
+      height:30vh;
+    }
+    #email-cs{
+      color:white;
+      font-family:"Oswald";
+      margin-bottom:3%;
+      text-align:center;
+      height:5vh;
+      width: 100vw;
+      font-size:1.5vh;
+    }
+    .email{
+      margin:0;
+      font-size:2.5vh;
+    }
+    #quote{
+      color:white;
+      font-family:"Oswald";
+      font-style:italic;
+      text-align:center;
+      font-size:2.5vh;
+      width:100vw;
+      height: 9vh;
+    }
+    #social{
+      width:100vw;
+      height: 8vh;
+    }
+    .fphoto img{
+      width:5vh;
+      height:5vh;
+    }
+    #instagram{
+      width:40vw;
+      text-align:right;
+      height: 6vh;
+    }
+    #twitter{
+      width:20vw;
+      text-align:center;
+      height: 6vh;
+    }
+    #discord{
+      width:40vw;
+      height: 6vh;
+      text-align:left;
+    }
   }
-  .email{
-    margin:0;
-    font-size:2.5vh;
-  }
-  #quote{
-    color:white;
-    font-family:"Oswald";
-    font-style:italic;
-    text-align:center;
-    font-size:2.5vh;
-    width:100vw;
-    height: 9vh;
-  }
-  #social{
-    width:100vw;
-    height: 8vh;
-  }
-  .fphoto img{
-    width:5vh;
-    height:5vh;
-  }
-  #instagram{
-    width:40vw;
-    text-align:right;
-    height: 6vh;
-  }
-  #twitter{
-    width:20vw;
-    text-align:center;
-    height: 6vh;
-  }
-  #discord{
-    width:40vw;
-    height: 6vh;
-    text-align:left;
-  }
-}
+  
