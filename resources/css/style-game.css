@@ -139,7 +139,9 @@ a{
   margin-top: 50%;
   text-transform: uppercase;
 }
-
+.header15{
+  display: none;
+}
 @keyframes typing {
   from { width: 0 }
   to { width: 100%}
@@ -455,6 +457,32 @@ a{
   .content p{
     font-size: 35px;
     font-weight: 600;
+  }
+  .header15{
+    display: block;
+    width: 100vw;
+    height: 15vh;
+  }
+  #logo15{
+    margin-top: 1.5vh;
+    width: 15vw;
+    height: 15vh;
+    float:left;
+    text-align: center;
+  }
+  #logo15 img{
+    width: 12vw;
+    height: auto;
+  }
+  #titlu15{
+    margin-top: 1.5vh;
+    width: 70vw;
+    height: 15vh;
+    float:left;
+    text-align: center;
+  }
+  #titlu15 p{
+    font-size: 6vw;
   }
 }
 
