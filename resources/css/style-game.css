@@ -262,7 +262,7 @@ a{
     color:white;
     font-family:"Oswald";
     text-transform:uppercase;
-    height:auto;
+    height:auto; 
   }
   #footer{
     width: 100vw;
