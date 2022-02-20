@@ -252,6 +252,9 @@ a{
   #video1{
     display: none;
   }
+  #video2{
+    display: block;
+  }
   .description{
     width:85vw;
     max-height: 32vh;
