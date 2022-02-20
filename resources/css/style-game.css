@@ -145,6 +145,7 @@ a{
   color:white;
   font-family:"Oswald";
   margin-top: 50%;
+  text-transform: uppercase;
 }
 
 @keyframes typing {
@@ -248,8 +249,7 @@ a{
     margin-left: 10vw;
     margin-right: 10vw;
     text-align: center;
-    margin-top:40vh;
-    display: block;
+    margin-top:60%;
   }
   .animation-game img{
     width:75vw;
@@ -264,7 +264,7 @@ a{
     letter-spacing: .15em; 
     text-align:center;
     font-size:7vw;
-    margin-top:20vh;
+    margin-top:10%;
     animation: 
     typing 4.5s steps(40, end),
     blink-caret .75s step-end infinite;
