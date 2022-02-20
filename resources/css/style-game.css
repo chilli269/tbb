@@ -23,7 +23,6 @@ a{
 }
 .header{
   position: sticky;
-  float: top;
   display: block;
   width: 100vw;
   height: 6.6vw;
@@ -31,7 +30,6 @@ a{
   font-size: 2.3vw;
   z-index: 20;
   background-image: url("../header.png");
-  background-repeat: none;
   background-size: cover;
 }
 .tbbh{
@@ -94,23 +92,18 @@ a{
 .title-game{
   color:white;
   font-family:"Oswald";
-  padding-bottom:10rem;
   font-size:2.5vw;
   position:absolute;
   margin-left:12%;
-  height:10vh;
 }
 .game-content{
   color:white;
   font-family:"Oswald";
-  padding-bottom:10rem;
-  font-size:1.5vw;
   position:absolute;
   margin-top:20vh;
   width:45vw;
   margin-left:12%;
-  float:left;
-  margin-bottom:10vh;
+  font-size:1.5vw;
 }
 .animation-game{
   width:20vw;
@@ -120,7 +113,6 @@ a{
   margin-right: 20vw;
   float: right;
   margin-top:25vh;
-  margin-bottom:10vh;
 }
 .animation-game img{
   height: 20vw;
@@ -223,9 +215,7 @@ a{
   .title-game{
   color:white;
   font-family:"Oswald";
-  padding-bottom:10rem;
   font-size:5.5vw;
-  margin-left:12%;
   margin-top:3%;
   text-align:center;
   }
