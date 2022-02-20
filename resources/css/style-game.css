@@ -241,7 +241,7 @@ a{
     margin-left: 10vw;
     margin-right: 10vw;
     text-align: center;
-    margin-top:60vh;
+    margin-top:55vh;
   }
   .animation-game img{
     width: 27vw;
@@ -256,7 +256,7 @@ a{
     letter-spacing: .15em; 
     text-align:center;
     font-size:7vw;
-    margin-top:70vh;
+    margin-top:60vh;
     animation: 
     typing 4.5s steps(40, end),
     blink-caret .75s step-end infinite;
