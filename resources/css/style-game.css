@@ -106,6 +106,7 @@ a{
   width:45vw;
   margin-left:12%;
   float:left;
+  margin-bottom:10vh;
 }
 .animation-game{
   width:20vw;
@@ -241,10 +242,10 @@ a{
     margin-left: 10vw;
     margin-right: 10vw;
     text-align: center;
-    margin-top:55vh;
+    margin-top:40vh;
   }
   .animation-game img{
-    width: 27vw;
+    width:75vw;
     border-radius: 5%;
     height:auto;
   }
@@ -264,11 +265,12 @@ a{
     color:white;
     font-family:"Oswald";
     text-transform:uppercase;
+    margin-bottom:20vw;
+    height:auto;
   }
   #footer{
     width: 100vw;
     height: 32vh;
-    margin-top:20vh;
   }
   #footer-cs{
     color:white;
