@@ -86,34 +86,50 @@ a{
   margin-top: 3vh;
 }
 .pg{
-  height:150vh;
+  height:100vh;
   width:100vw;
 }
 .title-game{
   color:white;
   font-family:"Oswald";
   font-size:2.5vw;
-  margin-left:12%;
+  width: 100vw;
+  height: 15vh;
+  float: left;
+  margin-left: 12vw;
+
 }
+.title-game h2{
+  width: 100vw;
+}
+#space{
+  width: 12vw;
+  height: 55vh;
+  float: left;
+}
+
 .game-content{
+  width:40vw;
+  height:55vh;
+  float:left;
+  margin:0;
+}
+.game-content p{
   color:white;
   font-family:"Oswald";
-  margin-top:20vh;
-  width:45vw;
-  margin-left:12%;
   font-size:1.5vw;
 }
 .animation-game{
-  width:20vw;
-  height: 30vh;
-  margin:auto 0;
-  margin-left: 25vw;
-  margin-right: 20vw;
-  float: right;
-  margin-top:25vh;
+  width:48vw;
+  height:55vh;
+  margin:0;
+  float:right;
+  text-align: center;
 }
 .animation-game img{
-  height: 20vw;
+  margin-top: 5vh;
+  width: 40vw;
+  height: auto;
   border-radius: 5%;
 }
 .typewriter{
@@ -134,7 +150,6 @@ a{
   animation-iteration-count:infinite;
   color:white;
   font-family:"Oswald";
-  margin-top: 50%;
   text-transform: uppercase;
 }
 .header15{
