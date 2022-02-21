@@ -83,10 +83,11 @@ a{
 .bg{
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 .bg video{
   width: 100vw;
-  height: 100vh;
+  height: auto;
 }
 #TBB{
   width: 100vw;
@@ -274,7 +275,7 @@ a{
     height: auto;
   }
   #titlu15{
-    margin-top: 1.5vh;
+    margin-top: 2.5vh;
     width: 70vw;
     height: 15vh;
     float:left;
