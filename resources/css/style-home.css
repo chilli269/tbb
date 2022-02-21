@@ -83,7 +83,9 @@ a{
 .bg{
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-align: center;
 }
 .bg video{
   width: 100vw;
@@ -256,12 +258,18 @@ a{
     display: none;
   }
   #video2{
+    width: 100vw;
+    height: auto;
     display: block;
+    position: relative;
   }
   .header15{
+    position: absolute;
     display: block;
     width: 100vw;
     height: 15vh;
+    text-align: center;
+    z-index: 1;
   }
   #logo15{
     margin-top: 1.5vh;
