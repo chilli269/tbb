@@ -307,7 +307,7 @@ a{
   }
   .description{
     width:85vw;
-    max-height: 32vh;
+    max-height: 34vh;
     margin-left: 7.5vw;
     margin-right: 7.5vw;
     text-align: center;
@@ -316,14 +316,14 @@ a{
   .representation{
     width:80vw;
     height: 45vh;
-    margin:auto 0;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    text-align: center;
+    
   }
   .representation img{
     height: 37vh;
     border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   #TSB{
     width: 100vw;
@@ -386,7 +386,7 @@ a{
   font-family:"Oswald";
   margin-bottom:3%;
   text-align:center;
-  height:5vh;
+  height:8vh;
   width: 100vw;
   font-size:1.5vh;
 }
@@ -546,6 +546,9 @@ input[type="checkbox"]{
 }
 #desktopus{
   display: none;
+}
+.title1{
+  font-size: 3.5vh;
 }
 }
 @media (min-aspect-ratio: 5/4){
