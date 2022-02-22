@@ -17,7 +17,7 @@ a{
 }
 .major{
   width:100vw;
-  height: 490vh;
+  height: 500vh;
 }
 .title:hover{
   color:#c96e24
@@ -85,8 +85,8 @@ a{
 }
 .bg{
   width: 100vw;
-  height: 100vh;
   text-align: center;
+  overflow: hidden;
 }
 .bg video{
   width: 100vw;
@@ -285,7 +285,7 @@ a{
     z-index: 1;
   }
   #logo15{
-    margin-top: 1.5vh;
+    margin-top: 2vh;
     width: 15vw;
     height: 15vh;
     float:left;
@@ -461,7 +461,7 @@ a{
   z-index: 2;
   right: 20px;
   /* left: 20px; */
-  top: 20px;
+  top: 1.7vh;
   height: 50px;
   width: 50px;
   text-align: center;
@@ -481,9 +481,9 @@ a{
 }
 .wrapper ul{
   position: absolute;
-  top: 50%;
+  margin-top: 10vh;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   list-style: none;
   text-align: center;
 }
