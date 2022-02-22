@@ -17,7 +17,7 @@ a{
 }
 .major{
   width:100vw;
-  height: 480vh;
+  height: 500vh;
 }
 .title:hover{
   color:#c96e24
@@ -86,8 +86,6 @@ a{
 .bg{
   width: 100vw;
   height: 100vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
   text-align: center;
 }
 .bg video{
@@ -140,9 +138,16 @@ a{
   background-size: cover;
   background-position: center;
 }
+
 #RM{
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
+  text-align: center;
+}
+#desktopus{
+  width: 90vw;
+  height: auto;
+
 }
 .representation1{
   width: 100vw;
@@ -259,6 +264,11 @@ a{
 @media (max-aspect-ratio: 5/4){
   #video1{
     display: none;
+  }
+  .bg video{
+    height: 100vh;
+    width: auto;
+    
   }
   #video2{
     width: 100vw;
@@ -529,5 +539,17 @@ input[type="checkbox"]{
 .content p{
   font-size: 35px;
   font-weight: 600;
+}
+#mobilus{
+  width: 90vw;
+  height: auto;
+}
+#desktopus{
+  display: none;
+}
+}
+@media in-aspect-ratio: 5/4){
+#mobilus{
+  display: none;
 }
 }
