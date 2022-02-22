@@ -550,6 +550,9 @@ input[type="checkbox"]{
 .title1{
   font-size: 3.5vh;
 }
+.mint h3{
+  font-size:4vh;
+}
 }
 @media (min-aspect-ratio: 5/4){
 #mobilus{
