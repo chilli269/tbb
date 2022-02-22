@@ -85,8 +85,10 @@ a{
   margin-top: 3vh;
 }
 .pg{
-  height:400vh;
-  width:100vw;;
+  height:490vh;
+  width:100vw;
+  margin-left:auto;
+  margin-right:auto;
 }
 .title-about{
   color:white;
@@ -147,6 +149,7 @@ a{
   color:white;
   font-family:"Oswald";
   text-transform: uppercase;
+  margin-bottom:10vh;
 }
 .header15{
   display: none;
@@ -165,7 +168,7 @@ a{
   margin-top:40%;
 }
 .imagine-dennis{
-  height:40vh;
+  height:50vh;
   width:25;
 }
 .imagine-dennis img{
@@ -184,7 +187,7 @@ a{
   font-size:2vw;
 }
 .imagine-amir{
-  height:40vh;
+  height:50vh;
 }
 .imagine-amir img{
   display: block;
@@ -202,7 +205,7 @@ a{
   font-size:2vw;
 }
 .imagine-alexandra{
-  height:40vh;
+  height:50vh;
 }
 .imagine-alexandra img{
   display: block;
@@ -220,7 +223,7 @@ a{
   font-size:2vw;
 }
 .imagine-mihnea{
-  height:40vh;
+  height:50vh;
 }
 .imagine-mihnea img{
   display: block;
@@ -238,7 +241,7 @@ a{
   font-size:2vw;
 }
 .imagine-david{
-  height:40vh;
+  height:50vh;
 }
 .imagine-david img{
   display: block;
@@ -256,7 +259,7 @@ a{
   font-size:2vw;
 }
 .imagine-vlad{
-  height:40vh;
+  height:50vh;
 }
 .imagine-vlad img{
   display: block;
@@ -274,7 +277,7 @@ a{
   font-size:2vw;
 }
 .imagine-alex{
-  height:40vh;
+  height:50vh;
 }
 .imagine-alex img{
   display: block;
@@ -292,7 +295,7 @@ a{
   font-size:2vw;
 }
 .imagine-mihai{
-  height:40vh;
+  height:50vh;
 }
 .imagine-mihai img{
   display: block;
