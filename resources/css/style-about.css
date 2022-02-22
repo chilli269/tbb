@@ -155,6 +155,9 @@ a{
 .header15{
   display: none;
 }
+.devimg{
+  
+}
 
 @keyframes typing {
   from { width: 0 }
