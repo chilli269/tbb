@@ -89,7 +89,7 @@ a{
   margin-top: 3vh;
 }
 .pg{
-  height:100vh;
+  height:180vh;
   width:100vw;;
 }
 .title-about{
@@ -106,12 +106,12 @@ a{
 }
 #space{
   width: 12vw;
-  height: 25vh;
+  height: 40vh;
   float: left;
 }
 .about-content{
   width:40vw;
-  height:30vh;
+  height:50vh;
   float:left;
   margin:0;
 }
@@ -122,7 +122,7 @@ a{
 }
 .photo-about{
   width:48vw;
-  height:30vh;
+  height:50vh;
   margin:0;
   float:right;
   text-align: center;
@@ -134,7 +134,7 @@ a{
 }
 .typewriter{
   width: 100vw;
-  height: 15vh;
+  height: 30vh;
 }
 .typewriter h2 {
   overflow: hidden;
@@ -155,10 +155,6 @@ a{
 .header15{
   display: none;
 }
-.devimg{
-  
-}
-
 @keyframes typing {
   from { width: 0 }
   to { width: 100%}
@@ -166,6 +162,54 @@ a{
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: rgba(230, 111, 0, 0.808); }
+}
+.devimg{
+  height:40vh;
+  width:100vw;
+  top:20vh;
+}
+.dennis{
+  width:12vw;
+  height:12vw;
+  border-radius:50%;
+  float:left;
+  margin-left:12vw;
+
+}
+.amir{
+  width:12vw;
+  height:12vw;
+  border-radius:10%;
+  float:center;
+  margin-left:12vw;
+}
+.alexandra{
+  width:12vw;
+  height:12vw;
+  border-radius:10%;
+  float:left;
+  margin-left:12vw;
+}
+.mihnea{
+  width:12vw;
+  height:12vw;
+  border-radius:10%;
+  float:left;
+  margin-left:12vw;
+}
+.david{
+  width:12vw;
+  height:12vw;
+  border-radius:10%;
+  float:center;
+  margin-left:12vw;
+}
+.vlad{
+  width:12vw;
+  height:12vw;
+  border-radius:10%;
+  float:center;
+  margin-left:12vw;
 }
 #footer-cs{
   color:white;
