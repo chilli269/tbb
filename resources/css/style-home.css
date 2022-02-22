@@ -17,7 +17,7 @@ a{
 }
 .major{
   width:100vw;
-  height: 500vh;
+  height: 490vh;
 }
 .title:hover{
   color:#c96e24
@@ -548,7 +548,7 @@ input[type="checkbox"]{
   display: none;
 }
 }
-@media in-aspect-ratio: 5/4){
+@media (min-aspect-ratio: 5/4){
 #mobilus{
   display: none;
 }
