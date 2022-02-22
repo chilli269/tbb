@@ -19,6 +19,9 @@ a{
   width:100vw;
   height: 480vh;
 }
+.title:hover{
+  color:#c96e24
+}
 .header{
   position: absolute;
   width: 100vw;
