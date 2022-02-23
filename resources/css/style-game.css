@@ -241,7 +241,7 @@ a{
     display:none;
   }
   .pg{
-    height:130vh;
+    height:150vh;
     width:100vw;
   }
   .title-game{
@@ -251,7 +251,7 @@ a{
   .title-game h2{
     color:white;
     font-family:"Oswald";
-    font-size:4.2vw;
+    font-size:6vw;
     margin-top:3%;
     text-align:center;
     width:85vw;
@@ -260,13 +260,13 @@ a{
   }
   .game-content{
     margin:0;
-    height:40vh;
+    height:auto;
     width:100vw;
   }
   .game-content p{
     color:white;
     font-family:"Oswald";
-    font-size:2.5vw;
+    font-size:4vw;
     text-align:center;
     width:85vw;
     margin-right:7.5vw;
@@ -292,7 +292,6 @@ a{
       letter-spacing: .15em; 
       text-align:center;
       font-size:7vw;
-      margin-top:80vh;
       animation: 
       typing 4.5s steps(40, end),
       blink-caret .75s step-end infinite;
@@ -300,6 +299,7 @@ a{
       color:white;
       font-family:"Oswald", cursive;
       text-transform:uppercase;
+      height:auto;
   }
   #footer{
     width: 100vw;
