@@ -247,6 +247,7 @@ a{
   .title-game{
     width:100vw;
     margin:0;
+    height:10vh;
   }
   .title-game h2{
     color:white;
@@ -491,7 +492,6 @@ a{
   #logo15{
     margin-top: 2.8vh;
     width: 15vw;
-    height: 15vh;
     float:left;
     text-align: center;
   }
@@ -499,10 +499,14 @@ a{
     width: 12vw;
     height: auto;
   }
+  .space15{
+    width:15vw;
+    float:right;
+  }
   #titlu15{
     margin-top: 3vh;
     width: 70vw;
-    height: 15vh;
+    height:auto;
     float:left;
     text-align: center;
   }
