@@ -240,19 +240,22 @@ a{
   #space{
     display:none;
   }
+  body{
+    overflow-y:scroll;
+    overflow-x:hidden;
+  }
   .pg{
-    height:210vh;
+    height:150vh;
     width:100vw;
   }
   .title-game{
     width:100vw;
     margin:0;
-    height:10vh;
   }
   .title-game h2{
     color:white;
     font-family:"Oswald";
-    font-size:6vw;
+    font-size:4.5vh;
     margin-top:3%;
     text-align:center;
     width:85vw;
@@ -267,7 +270,7 @@ a{
   .game-content p{
     color:white;
     font-family:"Oswald";
-    font-size:4vw;
+    font-size:2.5vh;
     text-align:center;
     width:85vw;
     margin-right:7.5vw;
@@ -277,35 +280,21 @@ a{
   .animation-game{
     width:100vw;
     margin:0;
+    height:40vh;
     text-align: center;
   }
   .animation-game img{
     margin-top: 5vh;
-    width: 70vw;
+    width:70vw;
     height:auto;
     border-radius:5%;
   }
-  .typewriter h2{
-    overflow: hidden;
-      border-right: .15em solid rgb(194, 89, 3);
-      white-space: nowrap; 
-      margin: 0 auto; 
-      letter-spacing: .15em; 
-      text-align:center;
-      font-size:7vw;
-      animation: 
-      typing 4.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-      animation-iteration-count:infinite;
-      color:white;
-      font-family:"Oswald", cursive;
-      text-transform:uppercase;
-      height:auto;
-      margin-top:10vh;
+  .typewriter{
+    display:none;
   }
   #footer{
     width: 100vw;
-    height: 32vh;
+    height: 40vh;
   }
   #footer-cs{
     color:white;
