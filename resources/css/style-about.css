@@ -731,6 +731,7 @@ a{
       transform: translateX(-50%);
       list-style: none;
       text-align: center;
+      padding: 0;
     }
     .wrapper ul li{
       margin: 15px 0;
