@@ -551,7 +551,7 @@ a{
       display: block;
     }
     .wrapper{
-      position: absolute;
+      position:fixed;
       top: 0;
       left: 0;
       height: 100%;
@@ -559,12 +559,15 @@ a{
       clip-path: circle(25px at calc(100% - 45px) 45px);
       transition: all 0.3s ease-in-out;
       z-index: 1;
+      background-image:url("../header.png");
+      background-repeat:none;
+      background-size:cover;
     }
     #active:checked ~ .wrapper{
       clip-path: circle(75%);
     }
     .menu-btn{
-      position: absolute;
+      position:fixed;
       z-index: 2;
       right: 20px;
       /* left: 20px; */
@@ -653,7 +656,7 @@ a{
       height: 15vh;
     }
     #logo15{
-      margin-top: 2.5vh;
+      margin-top: 2.8vh;
       width: 15vw;
       height: 15vh;
       float:left;
@@ -664,7 +667,7 @@ a{
       height: auto;
     }
     #titlu15{
-      margin-top: 1.5vh;
+      margin-top: 3.2vh;
       width: 70vw;
       height: 15vh;
       float:left;
