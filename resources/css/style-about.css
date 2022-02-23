@@ -396,13 +396,13 @@ a{
     width:100vw;
   }
   .title-about{
-    height:10vh;
+    height:15vh;
     width:100vw;
   }
   .title-about h2{
     color:white;
     font-family:"Oswald";
-    font-size:3.7vw;
+    font-size:3.9vw;
     margin-top:3%;
     text-align:center;
     width:85vw;
@@ -413,12 +413,12 @@ a{
   }
   .about-content{
     margin:0;
-    height:10vh;
+    height:30vh;
+    width:100vw;
   }
-  .about-content{
+  .about-content p{
     color:white;
     font-family:"Oswald";
-    padding-bottom:10rem;
     font-size:2.5vw;
     text-align:center;
     width:85vw;
@@ -427,9 +427,17 @@ a{
     padding-bottom:5vh;
   }
     .photo-about{
-      margin:0;
-      height:20vh;
       width:100vw;
+      height:60vh;
+      margin:0;
+      text-align: center;
+      padding-bottom:10vh;
+    }
+    .photo-about img{
+      margin-top: 5vh;
+      width: 60vw;
+      height: 40vw;;
+      border-radius: 5%;
 
     }
     .typewriter h2{
@@ -451,6 +459,7 @@ a{
     }
     .team-img{
       margin:0;
+      top:10vh
     }
     .imagine-dennis{
         height:30vh;
