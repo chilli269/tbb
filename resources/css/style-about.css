@@ -392,7 +392,7 @@ a{
     display:none;
   }
   .pg{
-    height:350vh;
+    height:550vh;
     width:100vw;
   }
   .title-about{
@@ -458,32 +458,155 @@ a{
       text-transform:uppercase;
     }
     .team-img{
-      margin:0;
-      top:10vh
+      height:180vh;
+      width:100vw;
+      margin-top:100%;
     }
     .imagine-dennis{
-        height:30vh;
+      height:50vh;
+      width:25;
+    }
+    .imagine-dennis img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height:30vw;
+      width:30vw;
+      border-radius:50%;
+    }
+    .imagine-dennis p{
+      font-family:"Oswald";
+      text-align:center;
+      color:white;
+      font-size:2.5vw;
+      padding-bottom:10vh
     }
     .imagine-amir{
-      height:30vh;
+      height:50vh;
+    }
+    .imagine-amir img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height:30vw;
+      width:30vw;
+      border-radius:50%;
+    }
+    .imagine-amir p{
+      font-family:"Oswald";
+      text-align:center;
+      color:white;
+      font-size:2.5vw;
     }
     .imagine-alexandra{
-      height:30vh;
+      height:50vh;
+    }
+    .imagine-alexandra img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height:30vw;
+      width:30vw;
+      border-radius:50%;
+    }
+    .imagine-alexandra p{
+      font-family:"Oswald";
+      text-align:center;
+      color:white;
+      font-size:2.5vw;
     }
     .imagine-mihnea{
-      height:30vh;
+      height:50vh;
+    }
+    .imagine-mihnea img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height:30vw;
+      width:30vw;
+      border-radius:50%;
+    }
+    .imagine-mihnea p{
+      font-family:"Oswald";
+      text-align:center;
+      color:white;
+      font-size:2.5vw;
     }
     .imagine-david{
-      height:30vh;
+      height:50vh;
+    }
+    .imagine-david img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height:30vw;
+      width:30vw;
+      border-radius:50%;
+    }
+    .imagine-david p{
+      font-family:"Oswald";
+      text-align:center;
+      color:white;
+      font-size:2.5vw;
     }
     .imagine-vlad{
-      height:30vh;
+      height:50vh;
+    }
+    .imagine-vlad img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height:30vw;
+      width:30vw;
+      border-radius:50%;
+    }
+    .imagine-vlad p{
+      font-family:"Oswald";
+      text-align:center;
+      color:white;
+      font-size:2.5vw;
     }
     .imagine-alex{
-      height:30vh;
+      height:50vh;
+    }
+    .imagine-alex img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height:30vw;
+      width:30vw;
+      border-radius:50%;
+    }
+    .imagine-alex p{
+      font-family:"Oswald";
+      text-align:center;
+      color:white;
+      font-size:2.5vw;
     }
     .imagine-mihai{
-      height:30vh;
+      height:50vh;
+    }
+    .imagine-mihai img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      height:30vw;
+      width:30vw;
+      border-radius:50%;
+    }
+    .imagine-mihai p{
+      font-family:"Oswald";
+      text-align:center;
+      color:white;
+      font-size:2.5vw;
     }
 
     #footer{
