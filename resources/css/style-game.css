@@ -241,7 +241,7 @@ a{
     display:none;
   }
   .pg{
-    height:200vh;
+    height:170vh;
     width:100vw;
   }
   .title-game{
@@ -312,7 +312,6 @@ a{
     font-family:"Oswald";
     text-align:center;
     font-size:2.8vh;
-    margin-top:5vh;
     width:100vw;
     height:7vh;
   }
