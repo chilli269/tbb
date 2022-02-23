@@ -392,7 +392,7 @@ a{
     display:none;
   }
   .pg{
-    height:510vh;
+    height:630vh;
     width:100vw;
   }
   .title-about{
@@ -467,15 +467,15 @@ a{
       margin:0;
     }
     .imagine-dennis{
-      height:50vh;
+      height:60vh;
     }
     .imagine-dennis img{
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 50%;
-      height:50vw;
-      width:50vw;
+      height:30vh;
+      width:auto;
       border-radius:50%;
       margin-top:15vh;
     }
@@ -486,15 +486,15 @@ a{
       font-size:4vw;
     }
     .imagine-amir{
-      height:50vh;
+      height:60vh;
     }
     .imagine-amir img{
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 50%;
-      height:50vw;
-      width:50vw;
+      height:30vh;
+      width:auto;
       border-radius:50%;
     }
     .imagine-amir p{
@@ -504,15 +504,15 @@ a{
       font-size:4vw;
     }
     .imagine-alexandra{
-      height:50vh;
+      height:60vh;
     }
     .imagine-alexandra img{
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 50%;
-      height:50vw;
-      width:50vw;
+      height:30vh;
+      width:auto;
       border-radius:50%;
     }
     .imagine-alexandra p{
@@ -522,15 +522,15 @@ a{
       font-size:4vw;
     }
     .imagine-mihnea{
-      height:50vh;
+      height:60vh;
     }
     .imagine-mihnea img{
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 50%;
-      height:50vw;
-      width:50vw;
+      height:30vh;
+      width:auto;
       border-radius:50%;
     }
     .imagine-mihnea p{
@@ -540,15 +540,15 @@ a{
       font-size:4vw;
     }
     .imagine-david{
-      height:50vh;
+      height:60vh;
     }
     .imagine-david img{
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 50%;
-      height:50vw;
-      width:50vw;
+      height:30vh;
+      width:auto;
       border-radius:50%;
     }
     .imagine-david p{
@@ -558,15 +558,15 @@ a{
       font-size:4vw;
     }
     .imagine-vlad{
-      height:50vh;
+      height:60vh;
     }
     .imagine-vlad img{
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 50%;
-      height:50vw;
-      width:50vw;
+      height:30vh;
+      width:auto;
       border-radius:50%;
     }
     .imagine-vlad p{
@@ -576,15 +576,15 @@ a{
       font-size:4vw;
     }
     .imagine-alex{
-      height:50vh;
+      height:60vh;
     }
     .imagine-alex img{
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 50%;
-      height:50vw;
-      width:50vw;
+      height:30vh;
+      width:auto;
       border-radius:50%;
     }
     .imagine-alex p{
@@ -601,8 +601,8 @@ a{
       margin-left: auto;
       margin-right: auto;
       width: 50%;
-      height:50vw;
-      width:50vw;
+      height:30vh;
+      width:auto;
       border-radius:50%;
     }
     .imagine-mihai p{
