@@ -435,10 +435,10 @@ a{
       float:none;
     }
     .photo-about img{
-      margin-top: 5vh;
-      width: 60vw;
-      height: 40vw;;
-      border-radius: 5%;
+      margin-top:5vh;
+      width:80vw;
+      height:auto;
+      border-radius:5%;
 
     }
     .typewriter{
