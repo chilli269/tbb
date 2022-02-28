@@ -318,7 +318,7 @@ a{
     height: 45vh;
     
   }
-  .representation img{
+  #gif{
     height: 37vh;
     border-radius: 5%;
     display: block;
