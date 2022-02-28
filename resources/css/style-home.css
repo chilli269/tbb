@@ -95,7 +95,7 @@ a{
 #TBB{
   width: 100vw;
   height: 100vh;
-  background-image: url("../paini.png");
+  background-image: url("../paini.webp");
   background-size: cover;
   background-position: center;
 }
@@ -120,21 +120,21 @@ a{
   margin-right: 10vw;
   float: right;
 }
-.representation img{
+#gif{
   height: 25vw;
   border-radius: 5%;
 }
 #TIB{
   width: 100vw;
   height: 100vh;
-  background-image: url("../ingreddiente.png");
+  background-image: url("../ingreddiente.webp");
   background-size: cover;
   background-position: center;
 }
 #TSB{
   width: 100vw;
   height: 100vh;
-  background-image: url("../IMG_0874\ \(1\).png");
+  background-image: url("../IMG_0874\ \(1\).webp");
   background-size: cover;
   background-position: center;
 }
@@ -328,7 +328,7 @@ a{
   #TSB{
     width: 100vw;
     height: 100vh;
-    background-image: url("../IMG_0874\ -\ Copy.png");
+    background-image: url("../IMG_0874\ -\ Copy.webp");
     background-size: cover;
     background-position: center;
   }
@@ -352,14 +352,14 @@ a{
 #TIB{
   width: 100vw;
   height: 100vh;
-  background-image: url("../ingreddiente\ -\ Copy.png");
+  background-image: url("../ingreddiente\ -\ Copy.webp");
   background-size: cover;
   background-position: center;
 }
 #TBB{
   width: 100vw;
   height: 100vh;
-  background-image: url("../paini\ -\ Copy.png");
+  background-image: url("../paini\ -\ Copy.webp");
   background-size: cover;
   background-position: center;
 }
