@@ -127,7 +127,7 @@ a{
   float:right;
   text-align: center;
 }
-.animation-game img{
+#gif{
   margin-top: 5vh;
   width: 40vw;
   height: auto;
@@ -283,7 +283,7 @@ a{
     height:40vh;
     text-align: center;
   }
-  .animation-game img{
+#gif{
     margin-top: 5vh;
     width:70vw;
     height:auto;
