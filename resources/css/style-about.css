@@ -666,7 +666,7 @@ a{
       height:5vh;
     }
     #instagram{
-      width:40vw;
+      width:35vw;
       text-align:right;
       height: 6vh;
     }
@@ -676,9 +676,13 @@ a{
       height: 6vh;
     }
     #discord{
-      width:40vw;
+      width:30vw;
       height: 6vh;
       text-align:left;
+    }
+    #linkedin{
+      height:6vh;
+      text-align:center;
     }
     .wrapper{
       display: block;
@@ -730,7 +734,7 @@ a{
       content: "\f00d";
     }
     .wrapper ul{
-      position: absolute;
+      position:absolute;
       margin-top: 10vh;
       left: 50%;
       transform: translateX(-50%);
@@ -753,7 +757,7 @@ a{
       transition: all 0.3s ease;
     }
     .wrapper ul li a:after{
-      position: absolute;
+      position:absolute;
       content: "";
       background: #fff;
       width: 100%;
