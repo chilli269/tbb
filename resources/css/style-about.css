@@ -360,7 +360,7 @@ a{
   height:2vw;
 }
 #instagram{
-  width:14.7vw;
+  width:12.7vw;
   float:left;
   text-align:right;
 }
@@ -371,9 +371,14 @@ a{
    
 }
 #discord{
-  width:14.7vw;
+  width:12.7vw;
   float:right;
   text-align:left;
+}
+#linkedin{
+  width:3vw;
+  float:left;
+  text-align:center;
 }
 .wrapper{
   display: none;
@@ -392,7 +397,7 @@ a{
     display:none;
   }
   .pg{
-    height:640vh;
+    height:630vh;
     width:100vw;
   }
   .title-about{
@@ -610,6 +615,7 @@ a{
       text-align:center;
       color:white;
       font-size:4vw;
+      margin:0;
     }
 
     #footer{

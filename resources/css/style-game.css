@@ -212,7 +212,7 @@ a{
   height:2vw;
 }
 #instagram{
-  width:14.7vw;
+  width:12.7vw;
   float:left;
   text-align:right;
 }
@@ -223,9 +223,14 @@ a{
    
 }
 #discord{
-  width:14.7vw;
+  width:12.7vw;
   float:right;
   text-align:left;
+}
+#linkedin{
+  width:3vw;
+  float:left;
+  text-align:center;
 }
 .wrapper{
   display: none;
