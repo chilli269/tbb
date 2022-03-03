@@ -417,7 +417,7 @@ a{
   height:5vh;
 }
 #instagram{
-  width:40vw;
+  width:35vw;
   text-align:right;
   height: 6vh;
 }
@@ -427,9 +427,13 @@ a{
   height: 6vh;
 }
 #discord{
-  width:40vw;
+  width:30vw;
   height: 6vh;
   text-align:left;
+}
+#linkedin{
+  height:6vh;
+  text-align:center;
 }
 .header{
   display: none;
